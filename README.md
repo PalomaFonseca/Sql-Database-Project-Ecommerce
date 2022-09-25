@@ -4,8 +4,6 @@
 
 Através do Bootcamp Database Experience disponibilizado pela plataforma da Digital Innovation One foi possível realizar alguns projetos no contexto de Bando de Dados Relacionais, segue abaixo a descrição de cada um destes no qual pude fundamentar meu conhecimento.
 
-Estes projetos tem foco principal na Modelagem de Dados
-
 Construção de um projeto lógico no MySql
 
 Descrição do Desafio
