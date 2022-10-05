@@ -98,7 +98,6 @@ CREATE TABLE payment(
     primary key(id_payment),
     constraint fk_payment_order foreign key(id_payourder) references ourder(id_ourder)
 );
-Select  * from ourder;
 
 INSERT INTO payment(id_payourder,pay_date,valor,pay_type,pay_status)
 values
