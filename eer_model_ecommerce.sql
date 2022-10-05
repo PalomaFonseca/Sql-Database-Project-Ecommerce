@@ -13,14 +13,13 @@ CREATE TABLE login(
 );
 
 INSERT INTO login(username, password_log) 
-			values  ('paloma123','123456/'),
+			values	('paloma123','123456/'),
 					('rafael123','65436/8'),
-                    ('katarina123','456789'),
-                    ('zed123','336545/'),
-                    ('kalista123','658567/'),
-                    ('twitch123','5844567'),
-                    ('fizz123','325646/'),
-                    ('gangplank123','1456546');
+					('katarina123','456789'),
+					('zed123','336545/'),
+					('kalista123','658567/'),
+					('fizz123','325646/'),
+					('gangplank123','1456546');
             
 CREATE TABLE person(
 	id_person int not null auto_increment,
@@ -39,10 +38,10 @@ CREATE TABLE person(
 );
 
 INSERT INTO person(id_plogin, cpf, fname, minit, lname, phone, email, bdate, address) 
-			values  (8,'11111111111','Gang','P','Plank','1123456789','gang@hotmail.com','20100205', 'Rua de lá,25'),
+			values	(8,'11111111111','Gang','P','Plank','1123456789','gang@hotmail.com','20100205', 'Rua de lá,25'),
 					(7,'22222222222','Fizz','M','Fish','2223456789','fizz@hotmail.com','20110407', 'Rua daqui,755'),
-                    (6,'33333333333','Twitch','L','Mouse','3323456789','twitch@hotmail.com','20090101', 'Rua solta,98'),
-                    (5,'44444444444','Kalista','O','Sombras','4423456789','kalista@hotmail.com','20100205', 'Rua dos outros,1000');
+					(6,'33333333333','Twitch','L','Mouse','3323456789','twitch@hotmail.com','20090101', 'Rua solta,98'),
+					(5,'44444444444','Kalista','O','Sombras','4423456789','kalista@hotmail.com','20100205', 'Rua dos outros,1000');
                     
 
 CREATE TABLE company(
@@ -59,10 +58,10 @@ CREATE TABLE company(
 );
 
 INSERT INTO company(id_clogin, cnpj, company_name, phone, address, email) 
-			values  (4,'11111789456123','Zed comércio de Sombras','9978945123','Rua da avenidas, 55','zedcom@gmail.com'),
-					(3,'2222789456123','Katarina comércio de Laminas','9978945123','Rua da avenidas, 988','katcom@gmail.com'),
-                    (2,'3333789456123','Rafael comércio de Perfusão','9976575123','Rua das pescas, 785','rafacom@gmail.com'),
-                    (1,'4444789456123','Paloma comércio de Dados','9912345123','Rua dos bites, 4122','palomacom@gmail.com');
+				values	(4,'11111789456123','Zed comércio de Sombras','9978945123','Rua da avenidas, 55','zedcom@gmail.com'),
+						(3,'2222789456123','Katarina comércio de Laminas','9978945123','Rua da avenidas, 988','katcom@gmail.com'),
+						(2,'3333789456123','Rafael comércio de Perfusão','9976575123','Rua das pescas, 785','rafacom@gmail.com'),
+						(1,'4444789456123','Paloma comércio de Dados','9912345123','Rua dos bites, 4122','palomacom@gmail.com');
 
 
 CREATE TABLE ourder(
@@ -77,13 +76,13 @@ CREATE TABLE ourder(
 );
 
 INSERT INTO ourder(id_log_ourder,ou_description,ou_date,ou_status,delivery_value) 
-			values  (1,'Computer,Mouse,Molinete','20220714','Confirmed',25.0),
+			values	(1,'Computer,Mouse,Molinete','20220714','Confirmed',25.0),
 					(2,'Carpet,Table,Windlass','20220716','Confirmed',32.0),
-                    (3,'Dog Collar,Food Plate,Teddy Bear','20220727','Confirmed',55.0),
-                    (5,'Play Guinea Pig,Doll,Fork','20220801','Confirmed',14.0),
-                    (6,'Mouse,Artifical Bait,SwitchBlade, Porcelain Dish','20220811','Confirmed',23.0),
-                    (7,'Keyboard,Table,Light Fixture','20220926','Processing',32.0),
-                    (1,'Keyborad,Windlass,Doll','20220927','Processing',18.0);
+					(3,'Dog Collar,Food Plate,Teddy Bear','20220727','Confirmed',55.0),
+					(5,'Play Guinea Pig,Doll,Fork','20220801','Confirmed',14.0),
+					(6,'Mouse,Artifical Bait,SwitchBlade, Porcelain Dish','20220811','Confirmed',23.0),
+					(7,'Keyboard,Table,Light Fixture','20220926','Processing',32.0),
+					(1,'Keyborad,Windlass,Doll','20220927','Processing',18.0);
 
 CREATE TABLE payment(
 	id_payment int auto_increment not null,
